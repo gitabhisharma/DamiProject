@@ -1,0 +1,23 @@
+.navbar{
+    background-color: aqua;
+
+}
+.rightnav{
+    width: 50%;
+    height: 10%;
+    background-color: blue;
+}
+.leftnav{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+img{
+    width: 20px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 100%;
+}
+.rightnav>ul>li{
+    text-decoration: none;
+}

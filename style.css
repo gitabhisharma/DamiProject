@@ -19,11 +19,18 @@ img{
     background-color: brown;
     border-radius: 100%;
 }
-.rightnav>ul>li{
-    text-decoration: none;
-}
+
 .rightnav>ul>li:hover{
     
     color:yellow;
+    text-decoration: underline;
     
+}
+ul, li{
+    transition: all;
+    transition-duration: .1s;
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+
 }

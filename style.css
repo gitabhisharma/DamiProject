@@ -1,13 +1,12 @@
 .navbar{
     background-color: aqua;
-    vertical-align: top;
+    display: flex;
 
 }
 .rightnav{
     width: 50%;
     height: 10%;
     background-color: blue;
-    align-items: center;
 }
 .leftnav{
     width: 50%;
@@ -20,8 +19,11 @@ img{
     background-color: brown;
     border-radius: 100%;
 }
-.rightnav>ul>li:hover{
+.rightnav>ul>li{
     text-decoration: none;
+}
+.rightnav>ul>li:hover{
+    
     color:yellow;
     
 }

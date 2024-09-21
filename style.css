@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(255, 255, 255);
+}
 .navbar{
     display: flex;
 }
@@ -43,5 +46,6 @@ ul, li{
     flex-flow: row;
     height: 400px;
     margin:2px;
-    border: 2px solid rgb(202, 196, 196);
+    background-color: blue;
+    border: 2px solid  rgb(196, 196, 196);
 }

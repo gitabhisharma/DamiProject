@@ -11,6 +11,7 @@
 .leftnav{
     width: 50%;
     height: 50%;
+    justify-content: end;
     background-color: yellow;
 }
 img{

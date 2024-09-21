@@ -1,31 +1,35 @@
 .navbar{
-    background-color: aqua;
     display: flex;
-
 }
 .rightnav{
     width: 50%;
     height: 10%;
-    background-color: blue;
+    margin: 10px;
+    margin-left: 20px;
+   /* background-color: blue;*/
+}
+#demo{
+    border: 2px solid black;
+    align-items: end;
+    content: attr(input);
 }
 .leftnav{
     width: 50%;
     height: 50%;
-    justify-content: end;
-    background-color: yellow;
+    margin-top: 25px;
+    margin-left: 50%;
 }
 img{
-    width: 20px;
-    height: 40px;
+    margin: 10px;
+    width: 90px;
+    height: 50px;
     background-color: brown;
     border-radius: 100%;
 }
 
-.rightnav>ul>li:hover{
-    
-    color:yellow;
+.rightnav>ul>li:hover{ 
+    color:rgb(207, 161, 161);
     text-decoration: underline;
-    
 }
 ul, li{
     transition: all;
@@ -33,5 +37,11 @@ ul, li{
     cursor: pointer;
     margin: 10px;
     display: flex;
-
+}
+.Silde-Bar{
+    width:100%;
+    flex-flow: row;
+    height: 400px;
+    margin:2px;
+    border: 2px solid rgb(202, 196, 196);
 }
